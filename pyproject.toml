@@ -1,0 +1,25 @@
+[project]
+name = "revdeq"
+version = "0.1.0"
+description = "Reversible Deep Equilibrium Models"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "equinox>=0.13.0",
+    "jax>=0.7.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build]
+include = ["revdeq/*"]
+
+[tool.ruff]
+ignore = ["E402"]
+
+[tool.ruff.lint.isort]
+combine-as-imports = true
+lines-after-imports = 2
+order-by-type = false

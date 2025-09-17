@@ -1,6 +1,6 @@
 # Reversible Deep Equilibrium Models
 
-A small library that implements Reversible Deep Equilibrium Models - introduced in this paper.
+A small library that implements Reversible Deep Equilibrium Models - introduced in this [paper](https://arxiv.org/abs/2509.12917).
 
 ## Install
 ```bash
